@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evve</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #flex {
+            display: flex;
+        }
+
+        div {
+            border: 0px solid black;
+        }
+
+        .info {
+            font-size: 15px;
+        }
+
+        .heading {
+            font-size: 15px;
+            font-style: bold;
+        }
+
+        .link {
+            color: aqua;
+            font-size: 15px;
+        }
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px;
+            display: inline-block;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+
+        input[type=email],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px;
+            display: inline-block;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+
+        input[type=submit] {
+            width: 20%;
+            background-color: aqua;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        i{border: 1px solid white
+            ;
+        border-radius: 100%;
+        height: 35px;width: 35px;
+        padding: 2.5px;
+    background-color: cyan;}
+
+        input[type=submit]:hover {
+            background-color: rgb(0, 162, 255);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color: rgba(232, 223, 223, 0.094);">
+    <div style="font-size: 40px;text-align: center;height: 60px;padding: 10px;margin-top: 50px;width: 100%;
+        ">
+        Conatct Form #03</div>
+    <div id="flex" style="width: 100%;height: 200px;">
+        <div style="width: 25%;height: 200px;text-align: center;padding: 50px;margin: 10px;"><i class="fa fa-map-marker"
+                style="font-size: 25px;"></i><br>
+            <p class="info"><span><b>Address: </b></span>198 West 21th Street,<br>
+                Suite 721 New York NY 10016</p>
+        </div>
+        <div style="width: 25%;height: 200px; text-align: center; padding: 60px;"><i class="fa fa-phone">
+                <p class="heading"><b>Phone: </b><span class="link">+ 12352355 98</span></p>
+            </i></div>
+        <div style="width: 25%;height: 200px; text-align: center; padding: 60px;"><i class="fa fa-send">
+                <p class="heading"><b>Email: </b><span class="link">info@yoursite.com</span></p>
+            </i></div>
+        <div style="width: 25%;height: 200px;text-align: center; padding: 60px;"><i class="fa fa-globe">
+                <p class="heading"><b>Website: </b><span class="link">yoursite.com</span></p>
+            </i></div>
+    </div>
+    <center>
+        <div id="flex" style="width: 75%;background-color: white;height: 400px;">
+            <div style="width: 65%;">
+                <p style="font-size: 25px;text-align: left;padding-left: 20px;padding-top: 10px;">Contact Us</p>
+                <form>
+                    <div id="flex">
+                        <div><label for="fname"><b></b>FULL NAME</b></label><br>
+                            <input type="text" id="fname" name="fullname" placeholder="Name">
+                        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <div><label for="EMAIL"><b></b>EMAIL ADDRESS</b></label><br>
+                            <input type="email" id="email" name="mail" placeholder="Email">
+                        </div>
+                    </div>
+                    <label
+                        for="Subject"><B>SUBJECT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></label><br>
+                    <input type="text" id="Subject" name="subject" placeholder="Subject"><br>
+                    <label
+                    for="Subject"><B>MESSAGE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</B></label><br>
+                <input type="text" id="Subject" name="subject" placeholder="Message"><br><br>
+                <input type="submit" value="Send Message">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                </form>
+            </div>
+            <div style="width: 35%;"><img src="download.webp" style="width: 100%;"></div>
+        </div>
+    </center>
+
+</body>
+
+</html>

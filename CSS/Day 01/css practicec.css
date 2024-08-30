@@ -1,0 +1,103 @@
+p {
+    background: url(4.png) repeat right top;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed
+}
+
+.solid {
+    border-style: solid
+}
+
+.double {
+    border-style: double
+}
+
+.groove {
+    border-style: groove
+}
+
+.ridge {
+    border-style: ridge
+}
+
+.inset {
+    border-style: inset
+}
+
+.outset {
+    border-style: outset
+}
+
+.none {
+    border-style: none
+}
+
+.hidden {
+    border-style: hidden
+}
+
+.w1 {
+    border-width: 1px;
+}
+
+.w2 {
+    border-width: 2px;
+}
+
+.w3 {
+    border-width: 3px;
+}
+
+.w4 {
+    border-width: 4px;
+}
+
+.w5 {
+    border-width: 5px;
+}
+
+.w6 {
+    border-width: 6px;
+}
+
+.red {
+    border-color: red;
+}
+
+.blue {
+    border-color: blue;
+}
+
+.gey {
+    border-color: grey
+    ;background-color: blue;
+}
+
+.multi {
+    border-color: red blue black yellowgreen;
+}
+
+.round {
+    border-radius: 5px;
+}
+
+.margin {
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 25px;
+}
+.maxwidth{max-width: 250px;}
+.outline{outline: green yellowgreen black blue ;outline-width: 10px;
+outline-offset: 10px;}

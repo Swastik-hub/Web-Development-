@@ -1,0 +1,43 @@
+
+.bowlmach {
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    left: 850px;
+    top: 90px;
+}
+
+.batsman {
+
+    position: absolute;
+    left: 700px;
+    bottom: 200px;
+    height: 350px;
+}
+
+.ball {
+    animation: ball 5s linear;
+    position: absolute;
+    top: 90px;
+    height: 30px;
+    width: 30px;
+    right: 630px;
+
+}
+
+@keyframes ball {
+    0% {
+        right: 630px;
+        top: 90px;
+    }
+
+    50% {
+        right: 630px;
+        top: 300px;
+    }
+    /* 100%{ */
+        right: 630px;
+        top: 500px;
+    }
+}
+

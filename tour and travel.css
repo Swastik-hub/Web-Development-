@@ -1,0 +1,26 @@
+body {
+    background-image: url('pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.avif');
+    background-repeat: no-repeat;
+    
+    background-size:cover;
+}
+    
+
+p {
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+img{
+    width: 130px;height: 130px;float: left;
+}
+h1{
+    color:rgb(164, 81, 130);
+    font-size:150px;
+    
+}
+H2{
+    color: rgb(76, 133, 135);
+font-size: 50PX;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #clock {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+            position: relative;
+        }
+
+        #needle {
+            width: 100px;
+            height: 2px;
+
+            animation-name: moving;
+            position: absolute;
+            top: 50px;
+            animation-duration: 60s;
+
+
+        }
+
+        #left {
+            width: 50%;
+
+
+        }
+
+        #right {
+            width: 50%;
+            border: 2px solid black;
+        }
+
+        @keyframes example {
+            from {
+                background-color: red;
+            }
+
+            to {
+                background-color:red;
+            }
+        }
+
+        @keyframes moving {
+            from {
+                transform: rotate(0deg)
+            }
+
+            to {
+                transform: rotate(360deg)
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <center>
+        <div id="clock">
+            <div id="needle">
+                <div id="left"></div>
+                <div id="right"></div>
+            </div>
+        </div>
+    </center>
+
+
+</body>
+
+</html>

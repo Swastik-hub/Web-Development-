@@ -1,0 +1,39 @@
+.bgw {
+    background-color: white;
+}
+
+.logo {
+    color: rgba(188, 76, 42, 1);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right {
+    text-align: right;
+}
+
+.flex-container {
+
+    background-color: white;
+}
+
+.flex-container>div {
+    color: rgba(188, 76, 42, 1);
+    size: 25px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.xyz{text-align: center;
+border: 2px solid black;}
+.GIT{text-align: center;
+font-size: 45px;
+font-family: Arial, Helvetica, sans-serif;
+padding-top: 50px;}
+.greyb{background-color: rgba(236, 205, 179, 0.473);
+}
+.cs{font-size: 20px;
+color: rgba(0, 0, 0, 1);
+font-family: Arial, Helvetica, sans-serif;text-align: center;
+padding-top: 50px;}

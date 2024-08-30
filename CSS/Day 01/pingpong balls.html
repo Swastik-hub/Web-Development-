@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pingpong Balls</title>
+    <style>
+        .box {
+            width: 1000px;
+            height: 400px;
+            border: 1px solid black;
+            position: relative;
+            top: 100px;
+            left: 150px;
+        }
+
+        .ball {
+            height: 25px;
+            width: 25px;
+            border-radius: 100%;
+            background-color: rgb(68, 196, 68);
+            animation-name: bounce;
+            animation-duration: 60s;
+            position: absolute;
+            border: 1px solid black;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes bounce {
+            0% {
+                background-color: red;
+                left: 5px;
+                top: 0px;
+            }
+
+            10% {
+                background-color: yellow;
+                left: 100px;
+                top: 373px;
+            }
+
+            20% {
+                background-color: blue;
+                left: 200px;
+                top: 0px;
+            }
+
+            30% {
+                background-color: green;
+                left: 300px;
+                top: 373px;
+            }
+
+            40% {
+                background-color: red;
+                left: 400px;
+                top: 0px;
+            }
+            50% {
+                background-color: yellow;
+                left: 500px;
+                top: 373px;
+            }
+
+            60% {
+                background-color: blue;
+                left: 600px;
+                top: 0px;
+            }
+
+            70% {
+                background-color: green;
+                left: 700px;
+                top: 373px;
+            }
+
+            80% {
+                background-color: red;
+                left: 800px;
+                top: 0px;
+            }
+            90% {
+                background-color: green;
+                left: 900px;
+                top: 373px;
+            }
+
+            100% {
+                background-color: red;
+                left: 970px;
+                top: 0px;
+            }
+
+
+        }
+        @keyframes bounce-back{
+            0% {
+                background-color: red;
+                left: 5px;
+                top: 0px;
+            }
+
+            10% {
+                background-color: yellow;
+                left: 100px;
+                top: 373px;
+            }
+
+            20% {
+                background-color: blue;
+                left: 200px;
+                top: 0px;
+            }
+
+            30% {
+                background-color: green;
+                left: 300px;
+                top: 373px;
+            }
+
+            40% {
+                background-color: red;
+                left: 400px;
+                top: 0px;
+            }
+            50% {
+                background-color: yellow;
+                left: 500px;
+                top: 373px;
+            }
+
+            60% {
+                background-color: blue;
+                left: 600px;
+                top: 0px;
+            }
+
+            70% {
+                background-color: green;
+                left: 700px;
+                top: 373px;
+            }
+
+            80% {
+                background-color: red;
+                left: 800px;
+                top: 0px;
+            }
+            90% {
+                background-color: green;
+                left: 900px;
+                top: 373px;
+            }
+
+            100% {
+                background-color: red;
+                left: 970px;
+                top: 0px;
+            }
+        }
+        .unball{
+            height: 25px;
+            width: 25px;
+            border-radius: 100%;
+            background-color: rgb(68, 196, 68);
+            animation-name: bounce-back;
+            animation-duration: 60s;
+            position: absolute;
+            border: 1px solid black;
+            animation-iteration-count: infinite;
+            right: 50px;
+            animation-direction: reverse;
+            top: 0;
+
+        }
+    </style>
+</head>
+
+<body style="position: relative;">
+    <div class="box">
+        <div class="ball"></div>
+        <div class="unball"></div>
+    </div>
+
+</body>
+
+</html>

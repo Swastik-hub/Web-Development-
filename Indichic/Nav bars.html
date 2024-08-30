@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbars</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            border: 1px solid black;
+        }
+
+        .cont {
+            height: 155px;
+            background-color: white;
+
+        }
+
+        #flex {
+            display: flex;
+        }
+
+        .navup {
+            height: 70px;
+            margin: 5px;
+        }
+
+        .navup3 {
+            width: 16.666666%;
+            height: 60px;
+            margin: 5px;
+        }
+
+        #navup1 {
+            width: 50%;
+            height: 60px;
+            margin: 5px
+        }
+        .navdown{width: 20%;
+        height: 40px;
+    padding: 5px;
+margin: 2.5px;}
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="navup" id="flex">
+            <div class="navup3"></div>
+            <div id="navup1"></div>
+            <div class="navup3"></div>
+            <div class="navup3"></div>
+        </div>
+        <div class="navup" style="padding: 5px;">
+            <div style="width: 50%; margin: auto;
+            height: 50px;" id="flex">
+                <div class="navdown"></div>
+                <div class="navdown"></div>
+                <div class="navdown"></div>
+                <div class="navdown"></div>
+                <div class="navdown"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
